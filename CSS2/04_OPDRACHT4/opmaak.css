@@ -1,0 +1,37 @@
+body
+{
+    font-family: Verdana;
+    font-size: 1.1 em;
+    background-color: #8D99AE;
+    color: darkblue;
+}
+
+h1
+{
+    font-variant: all-small-caps;
+    background-color: red;
+}
+
+a:hover
+{
+    border: 5px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.stippeltjesrand
+{
+    border: 1px dotted;
+}
+
+a:before
+{
+    background-image: url("../01_IMAGES/hyperlink_icon.png") ;
+    float: left;
+    content:"";
+    height: 10px;
+    width: 10px;
+    margin: 0 5px 0 0;
+    background-size: 100% 100%;
+}
+
