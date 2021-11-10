@@ -1,0 +1,43 @@
+table
+{
+    border: 2px solid black !important;
+}
+
+table,td
+{
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+
+td:first-child, td:last-child
+{
+    background-color: rgb(35, 243, 255);
+}
+
+.last, .next
+{
+    color:gray !important;
+    background-color: lightgray !important;
+}
+
+.feestdag
+{
+    background-color: rgb(250,120,120);
+}
+
+.dag > td:first-child, .dag > td:last-child, .dag
+{
+    color:rgb(200,190,240) !important;
+    background-color: rgb(35,37,70) !important;
+}
+
+th
+{
+    background-color: rgb(47, 115, 200);
+}
+
+.link
+{
+    color: blue;
+    text-decoration: underline;
+}
