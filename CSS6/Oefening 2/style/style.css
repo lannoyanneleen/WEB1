@@ -1,0 +1,15 @@
+.lichtgrijs{
+    background-color: lightgray;
+    height: 100px;
+    float: left;
+    border: 5px solid white;
+}
+
+.donkergrijs{
+    background-color: dimgray;
+    height: 100px;
+    float: left;
+    border: 5px solid white;
+}
+
+

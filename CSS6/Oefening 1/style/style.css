@@ -1,0 +1,18 @@
+.lichtgrijs
+{
+    background-color: lightgray;
+    float: left;
+}
+
+.donkergrijs
+{
+    background-color: darkgrey;
+    float: left;
+}
+
+div
+{
+    height: 150px;
+    border: white solid 5px;
+}
+
