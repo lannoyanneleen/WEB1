@@ -1,0 +1,117 @@
+body {
+	background: #e5d2c1;
+	background-image: url(../images/stripverloopokapi.jpg);
+	background-repeat: repeat-x;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+
+div#main {
+	width: 970px;
+	background: #ECE9E0;
+	margin: 0 auto;
+	border: black 2px solid;
+}
+
+
+header {
+	width: 970px;
+	height: 180px;
+	border-bottom: black 1px solid;
+	background-image: url('../images/headerokapi.jpg');
+	background-size: 100%;
+}
+
+header > img {
+	border: none;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+    width: 800px;
+	font-family: Verdana, Geneva, sans-serif;
+    margin: 0 auto;
+}
+
+nav > ul {
+    list-style: none;
+	padding: 0;
+}
+
+nav > ul > li {
+    width: 120px;
+    float: left;
+
+	text-align: center;
+    padding-top: 10px;
+}
+
+nav a{
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration:underline;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+
+article {
+/*    box-sizing:border-box;
+
+	float: left;
+	padding: 0px 10px 10px 10px;*/
+	margin-top: 20px;
+}
+
+
+aside#fotodiv {
+/*	width: 40%;
+    box-sizing:border-box;
+
+	float: left;*/
+	margin-top: 20px;
+}
+
+img {
+	border: #000 1px solid;
+	margin-bottom: 8px;
+}
+
+
+p.quote {
+	border: black  1px solid;
+	padding: 10px 10px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+section > img {
+	border: #000 1px solid;
+	margin: 10px 10px 10px 0;
+    float: left;
+}
+
+footer {
+	border-top:6px solid black;
+/*	width: 970px;
+	box-sizing: border-box;*/
+
+	text-align: right;
+	
+	font-size: 12px;
+	padding: 10px 25px 0 0;
+	/*clear:both;*/
+}
