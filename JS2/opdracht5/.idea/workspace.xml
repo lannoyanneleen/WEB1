@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5006958-a06b-4d62-a68f-a65327965227" name="Default Changelist" comment="" />
+    <list default="true" id="dabb9e57-fb64-4d69-9173-c2230b9a8e4f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="24rz2knHWaQta5FMyFu52bELPnR" />
+  <component name="ProjectId" id="25BYbKC8XmMAr6PiUNfHBZHCpal" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -33,14 +41,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c5006958-a06b-4d62-a68f-a65327965227" name="Default Changelist" comment="" />
-      <created>1644403289400</created>
+      <changelist id="dabb9e57-fb64-4d69-9173-c2230b9a8e4f" name="Default Changelist" comment="" />
+      <created>1645002016931</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644403289400</updated>
-      <workItem from="1644403293784" duration="773000" />
-      <workItem from="1645000909366" duration="65000" />
-      <workItem from="1645002688588" duration="3669000" />
+      <updated>1645002016931</updated>
+      <workItem from="1645002018032" duration="498000" />
+      <workItem from="1645002595203" duration="838000" />
     </task>
     <servers />
   </component>
