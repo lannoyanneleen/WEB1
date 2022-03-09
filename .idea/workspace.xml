@@ -22,6 +22,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,6 +53,7 @@
       <workItem from="1640110277015" duration="53000" />
       <workItem from="1646127633698" duration="215000" />
       <workItem from="1646815386920" duration="2946000" />
+      <workItem from="1646820941534" duration="1011000" />
     </task>
     <servers />
   </component>
