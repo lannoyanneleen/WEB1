@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>Invulformulier</title>
+</head>
+<body>
+<form action="http://www.vives.be/save.aspx" method="post">
+    <label for="txtFirstName" >First name*: </label>
+    <input type="text" name="txtFirstName" id="txtFirstName" placeholder="Your first name" autofocus required /><br />
+    <label for="txtLastName">Last name*:</label>
+    <input type="text" name="txtLastName" id="txtLastName" placeholder="Your last name" required /><br />
+    <p>Which sport do you train?</p>
+
+    <label for="ckbRunning">Running</label><input type="checkbox" name="ckbRunning" id="ckbRunning" value="running" /><br />
+    <label for="ckbSwimming">Swimming</label><input type="checkbox" name="ckbSwimming" id="ckbSwimming" value="swimming" /><br />
+    <label for="ckbRowing">Rowing</label><input type="checkbox" name="ckbRowing" id="ckbRowing" value="rowing" />
+
+    <p>What is your gender? </p>
+
+    <label for="rdbMale">Male</label><input type="radio" name="gender" id="rdbMale" value="male" /> <br />
+    <label for="rdbFemale">Female</label><input type="radio" name="gender" id="rdbFemale" value="female" /><br />
+
+
+    <label contenteditable="true">Favorite movie: </label><input type="text" name="txtMovie" id="txtMovie" /><br />
+    <label>Favorite quote: </label><input type="text"  name="txtQuote" id="txtQuote" placeholder="Write your favorite quote" /><br />
+
+    <label for="pwd">Password*: </label>
+    <input type="password" name="pwd" id="pwd" required /><br />
+    <label for="sltFood" >Favorite food: </label>
+    <select multiple="multiple"  size="3" name="sltFood" id="sltFood">
+
+        <option value="1">Hamburger</option>
+        <option value ="2">Hot Dog</option>
+        <option value ="3">Pizza</option>
+
+        <</select><br/>
+
+    <label for="txtBrowser">Choose a flavor:</label>
+    <input list="dlBrowsers" id="txtBrowser" name="txtBrowser" />
+
+    <datalist id="dlBrowsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist> <br/>
+
+    <input type="file" name="flBestand" id="flBestand" /><br />
+
+    <label for="txtEmail">Email adress:</label> <input type="email"  name="txtEmail" id="txtEmail" placeholder="Enter your email adress"  required /><br />
+    <label for="txtUrl">Favorite site: </label> <input type="url" name="txtUrl" id="txtUrl" placeholder="Enter the URL of your favorite site" /><br />
+    <label for="rngNumber">Favorite number between 1-10: </label> <input type="number" name="rngNumber" id="rngNumber" max="10" min="1" /><br />
+    <label for="rngNumber2">Favorite number between 11-1000: </label> <input type="range" name="rngNumber2" id="rngNumber2" max="1000" min="11" /><br/>
+
+    <label for="txtDate">When were you born? </label> <input type="date" name="txtDate" id="txtDate" /><br />
+    <label for =txtPostcode> Belgium zip-code reg number*:</label>
+    <input type="text" pattern="[1-9][0-9]{3}" name="txtPostcode" id="txtPostcode"  title="Regnumber for a Belgium zip-code." placeholder="9999" /><br/>
+
+
+
+    <label for="txtSearch">  Search for something: </label> <input type="search" name="txtSearch" id="txtSearch" /><br />
+    <label for="txtColor"> What is your favorite color? </label> <input type="color" name="txtColor" id="txtColor" /><br />
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
